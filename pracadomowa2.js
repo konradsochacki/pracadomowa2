@@ -175,9 +175,9 @@
 //     do {
 //         ite++;
 //         let item = basicArray[Math.floor(Math.random()*basicArray.length)];
-//         let dupa = basicArray.indexOf(item);
+//         let arrInd = basicArray.indexOf(item);
 //        result.push(item);
-//        basicArray.splice(dupa,item);
+//        basicArray.splice(arrInd,item);
 //        console.log(result, basicArray)}
 //     while (ite<long)
 
@@ -228,14 +228,22 @@
 //Create a function that tells us how many days till Friday
 
 
+// function Friday() {
+//     let piatek= 5;
+//     let dzien= new Date();
+//     let dzisiaj=dzien.getDay()
+//     if (dzisiaj==piatek) console.log("dziś jest piątek");
+//     else if (dzisiaj==0) console.log("do piątku 5 dni");
+//     else if (dzisiaj==1) console.log("do piątku 4 dni");
+//     else if (dzisiaj==2) console.log("do piątku 3 dni");
+//     else if (dzisiaj==3) console.log("do piątku 2 dni");
+//     else if (dzisiaj==4) console.log("do piątku 1 dni");
+//     else if (dzisiaj==5) console.log("do piątku 6 dni");
+//     else if (dzisiaj==6) console.log("do piątku 7 dni");
+//   return dzisiaj
+// }
 
-function Friday() {
-    let dzien= new Date();
-    let dzisiaj=dzien.getDay();
-  return  dzisiaj;
-}
-
-console.log(Friday());
+// console.log(Friday());
 
 /////////////////////////////////////////////////////////////////////
 
